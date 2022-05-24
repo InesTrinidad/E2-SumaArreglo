@@ -1,0 +1,69 @@
+*{
+background-color: rgb(230, 223, 223);
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline red;
+
+}
+div{
+    align-content: center;
+}
+table {
+    text-align: center;
+    /*margin-top: 20px;
+    margin-left: 20px;*/
+    border-spacing: 5px 5px;
+    border-inline: 30px;  
+}
+
+#tablanumeros{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    
+}
+.numeros {
+    background-color: rgb(179, 135, 135)(156, 156, 156);
+    text-decoration-color: rgb(240, 240, 63);
+    display: grid;
+    grid-template-columns: 1000px;
+
+}
+
+p{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+button {
+    background-color: rgb(180, 165, 165);
+    color: rgb(89, 78, 126);
+    padding: 3px;
+    color: rgb(10, 10, 10);
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+    justify-content: center;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgb(231, 130, 130);
+}
+.resul{
+   
+   text-align: center;
+}
+
+#resultado{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    border-color: red;
+    
+   
+}
